@@ -5,6 +5,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
 }
 .logo {
   display: inline-block;
@@ -16,7 +17,22 @@ header {
 }
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 nav {
   display: none;
+}
+.list-navigation {
+  list-style: none;
+}
+.list-navigation li {
+  padding: 16px;
+}
+.list-navigation li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
 }
