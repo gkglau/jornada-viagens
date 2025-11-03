@@ -13,6 +13,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card-offer header p {
@@ -22,7 +24,7 @@
 .card-offer h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
-  margin: 8px 0 0;
+  margin: 8px;
 }
 .card-offer span {
   font-size: 32px;
