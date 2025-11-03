@@ -1,0 +1,31 @@
+.card-offer {
+  color: var(--text-secondary-color);
+  background-color: black;
+  padding: 24px 16px;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card-offer header {
+  display: block;
+  background-color: transparent;
+  position: static;
+}
+
+.card-offer header p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+.card-offer h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
+}
+.card-offer span {
+  font-size: 32px;
+  display: inline-block;
+  margin-top: 24px;
+}
