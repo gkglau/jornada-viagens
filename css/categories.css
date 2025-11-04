@@ -39,6 +39,7 @@
   }
   .title-categories {
     max-width: 100%;
+    margin: auto;
   }
 }
 @media screen and (min-width: 1024px) {
