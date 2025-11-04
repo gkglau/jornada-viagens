@@ -4,6 +4,7 @@
   gap: 24px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 88px;
 }
 .card-offer {
   color: var(--text-secondary-color);
