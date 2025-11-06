@@ -1,5 +1,6 @@
 .categories-research {
   margin-bottom: 88px;
+  margin-top: 88px;
 }
 .title-categories {
   max-width: 300px;
@@ -17,7 +18,7 @@
 .category-card {
   background-color: var(--background-secondary-color);
   width: 312px;
-  height: 220px;
+  height: 280px;
   border-radius: 8px;
   padding: 24px 16px;
   text-align: center;
@@ -45,6 +46,6 @@
 @media screen and (min-width: 1024px) {
   .category-card {
     width: 280px;
-    height: 220px;
+    height: 280px;
   }
 }
