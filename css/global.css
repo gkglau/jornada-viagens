@@ -72,9 +72,24 @@ body {
   text-align: center;
 }
 h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+}
+h4 {
   size: 28px;
   font-weight: var(--title-weight);
   color: var(--text-primary-color);
+}
+p {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  color: var(--text-primary-color);
+  line-height: 28px;
+}
+
+.card-paragraph {
+  color: var(--text-secondary-color);
 }
 
 @media screen and (min-width: 768px) {
