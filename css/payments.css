@@ -1,0 +1,87 @@
+.payments {
+  margin: 0 8% 88px 8%;
+}
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.payment-text-content {
+  display: flex;
+  flex-direction: column;
+}
+.payments .payment-img-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  height: 460px;
+  width: 100%;
+}
+.payments .payment-img-content .payment-img.first-img {
+  background: url(/assets/payment-img-01-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.payments .payment-img-content .payment-img.second-img {
+  background: url(/assets/payment-img-02-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.payments .payment-img-content .payment-img.third-img {
+  background: url(/assets/payment-img-03-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .payment-img-content .payment-img.first-img {
+    background: url(/assets/payment-img-01-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .payments .payment-img-content .payment-img.second-img {
+    background: url(/assets/payment-img-02-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .payments .payment-img-content .payment-img.third-img {
+    background: url(/assets/payment-img-03-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payment-container {
+    display: flex;
+    flex-direction: row;
+    height: 460px;
+    gap: 24px;
+  }
+  .payment-text-content {
+    width: 30%;
+  }
+
+  .payments .payment-img-content {
+    height: 460px;
+    gap: 1.5rem;
+  }
+  .payments .payment-img-content .payment-img.first-img {
+    background: url(/assets/payment-img-01-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .payments .payment-img-content .payment-img.second-img {
+    background: url(/assets/payment-img-02-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .payments .payment-img-content .payment-img.third-img {
+    background: url(/assets/payment-img-03-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+  }
+}
