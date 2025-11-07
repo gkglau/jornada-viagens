@@ -1,0 +1,43 @@
+.main-footer {
+  background-color: var(--background-tertiary-color);
+  padding: 32px 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.footer-paragraph {
+  color: var(--text-secondary-color);
+  line-height: 28px;
+  size: 16px;
+  text-align: center;
+  font-weight: var(--text-weight);
+  padding: 8px 0;
+}
+.jornada-info {
+  gap: 24px;
+  text-align: center;
+}
+.social-media {
+  text-align: center;
+  padding: 8px;
+  gap: 16px;
+}
+.main-footer.social-media img {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+}
+@media screen and (min-width: 1440px) {
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .jornada-info {
+    text-align: left;
+  }
+  .footer-paragraph {
+    text-align: left;
+  }
+}
